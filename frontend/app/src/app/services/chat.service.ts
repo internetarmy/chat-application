@@ -9,7 +9,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ChatService {
 
-  baseUrl = "http://localhost:8080";
+  baseUrl = "http://localhost:8088";
 
   constructor(private httpClient: HttpClient) { }
 
